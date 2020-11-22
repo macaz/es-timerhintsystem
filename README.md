@@ -1,5 +1,5 @@
 # Timer & hint system
-A cross platform timer and hint application for escape rooms, using electron js and mqtt.js.
+A cross platform timer and hint application for escape rooms, using electron js, socket.io and mqtt.js.
 
 ![finished app](https://iili.io/FEq6zl.md.jpg)
 
