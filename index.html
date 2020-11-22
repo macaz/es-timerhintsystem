@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' ws://localhost:*/socket.io/; script-src 'self' ws://localhost:*/socket.io/">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self' ws://localhost:*/socket.io/; script-src 'self' ws://localhost:*/socket.io/">
+    <title>Timer Hint System</title>
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="countdown">
+          <ul>
+              <li><span id="hours"></span>Hours</li>
+              <li><span id="minutes"></span>Minutes</li>
+              <li><span id="seconds"></span>Seconds</li>
+          </ul>
+      </div>
+      <div class="hint">
+          <h1 id="messageHint"></h1>
+      </div>
+    </div>
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>

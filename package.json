@@ -1,0 +1,29 @@
+{
+  "name": "timer-hint-system",
+  "version": "1.0.0",
+  "description": "A cross platform timer and hint application for escape rooms, using electron js mqtt.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/macaz/timer-hint-system",
+  "keywords": [
+    "electron",
+    "mqtt",
+    "timer",
+    "escaperoom",
+    "hint",
+    "smart mirror"
+  ],
+  "author": "Sean McQuarrie",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^7.1.2",
+    "electron-builder": "^22.9.1"
+  },
+  "dependencies": {
+    "mqtt": "^4.2.5",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0"
+  }
+}
