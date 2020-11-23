@@ -67,4 +67,4 @@ You can remove the hint text by sending an empty string ("") to the topic.
 ![command prompt](https://iili.io/FEqPX2.md.jpg)
 > a demo of sending the commands via MQTT
 
-This has been testing on windows and mac.
+This has been tested using VS code on windows and mac.
